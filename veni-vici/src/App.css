@@ -1,0 +1,86 @@
+*{
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.App{
+  display: flex;
+  justify-content: space-between;
+  min-width: 100vw;
+  align-items: center;
+  background-image: url("./assets/dog.jpg");
+}
+label{
+  display: flex;
+  flex-direction: column;
+}
+.historyImg{
+  width: 150px;
+}
+.history {
+  background-color: #f3d6e9;
+  /* opacity: 0.5; */
+  box-shadow: 1px 1px 10px #3f3f3f;
+  height: 100vh;
+  min-width: 250px;
+  overflow-y: scroll;
+  padding: 0 10px;
+}
+.cat-history > img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  opacity: 1;
+}
+.banned-list{
+  /* opacity: 0.5; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 1px 1px 10px #3f3f3f;
+  background-color: #f3d6e9;
+  height: 100vh;
+  min-width: 250px;
+}
+.queryRes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3d6e9;
+  box-shadow: 1px 1px 10px #3f3f3f;
+  border-radius: 10px;
+  height: 680px;
+  width: 650px;
+  /* opacity: 0.8; */
+}
+img {
+  width: 300px;
+  border-radius: 10px;
+  margin: 15px 0px;
+  /* opacity: 1; */
+}
+.attributes {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.banned-item{
+  padding: 10px 15px;
+  background-color: #d65252;
+  margin: 10px 0px;
+  color: #f5f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+  border-bottom: solid 4px #492323;
+}
